@@ -13,8 +13,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-@Setter
-@Getter
+
 @Configuration
 @ConfigurationProperties(prefix = "spring.datasource")
 public class DBSettings {

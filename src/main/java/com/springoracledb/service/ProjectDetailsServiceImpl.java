@@ -18,7 +18,7 @@ public class ProjectDetailsServiceImpl implements ProjectDetailsService{
 	private com.springoracledb.repository.projectRepository projectRepository;
 
 	@Override
-	@Transactional
+	@Transactional   //this transcational is used to commit the changes in db if executn is successs and rollback if execuutn is failed
 	public void addProjectDetails(ProjectDetailsDTO ProjectDetailsDTO) {
 		// TODO Auto-generated method stub
 		
